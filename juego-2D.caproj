@@ -23,8 +23,10 @@
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="Turret" version="1">Turret</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+        <behavior author="Scirra" id="wrap" version="1">Wrap</behavior>
     </used-behaviors>
     <used-effects />
     <configurations>
@@ -98,6 +100,9 @@
             <behaviors>
                 <behavior-type name="Platform" sid="1237031804521144">
                     <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="Wrap" sid="184363764068870">
+                    <behavior id="wrap" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -917,7 +922,7 @@
         <object-type name="Sprite2" sid="882981933179525">
             <plugin id="Sprite" />
             <behaviors>
-                <behavior-type name="Anchor" sid="302479700701114">
+                <behavior-type name="Anchor" sid="465343128602235">
                     <behavior id="Anchor" />
                 </behavior-type>
             </behaviors>
@@ -1450,7 +1455,7 @@
         <object-type name="status_barra_de_vidaV" sid="245164947813016">
             <plugin id="Sprite" />
             <behaviors>
-                <behavior-type name="Anchor" sid="327186995279142">
+                <behavior-type name="Anchor" sid="504563004859904">
                     <behavior id="Anchor" />
                 </behavior-type>
             </behaviors>
@@ -1549,70 +1554,75 @@
                 <instance-variable name="vidaJefe" sid="130124886031651" type="number" />
             </instance-variables>
             <behaviors>
-                <behavior-type name="Platform" sid="329213218847992">
-                    <behavior id="Platform" />
+                <behavior-type name="Turret" sid="390731400642245">
+                    <behavior id="Turret" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="3" loop="1" name="parado" pingpong="0" repeatcount="1" repeatto="0" sid="376080773474277" speed="11">
-                    <frame duration="1" hotspotX="0.47619" hotspotY="0.438356" original-source="C:\Users\devil\Desktop\25015.gif">
+                    <frame duration="1" hotspotX="0.52381" hotspotY="0.547945" original-source="C:\Users\devil\Desktop\25015.gif">
+                        <image-point name="Imagepoint 1" x="0.904762" y="0.808219" />
                         <collision-poly>
-                            <point x="0.833333" y="1" />
-                            <point x="0.738095" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0.642857" y="0.178082" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.463415" hotspotY="0.444444" original-source="C:\Users\devil\Desktop\nuevosAnayas.png">
-                        <collision-poly>
-                            <point x="1" y="0.5" />
-                            <point x="1" y="0.986111" />
-                            <point x="0.512195" y="0.736111" />
-                            <point x="0" y="0.944444" />
-                            <point x="0" y="0.5" />
-                            <point x="0" y="0.0833333" />
-                            <point x="0.512195" y="0.0138889" />
-                            <point x="1" y="0.180556" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.47619" hotspotY="0.432432" original-source="C:\Users\devil\Desktop\nuevosAnayas.png">
-                        <collision-poly>
-                            <point x="1" y="0.5" />
-                            <point x="1" y="0.972973" />
-                            <point x="1" y="0.72973" />
-                            <point x="0.119048" y="0.932432" />
-                            <point x="0.309524" y="0.5" />
-                            <point x="0.166667" y="0.0945946" />
-                            <point x="1" y="0.027027" />
-                            <point x="1" y="0.189189" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="2" loop="0" name="Dispara" pingpong="0" repeatcount="1" repeatto="0" sid="760612269915925" speed="5">
-                    <frame duration="1" hotspotX="2.21277" hotspotY="-5.38235" original-source="C:\Users\devil\Desktop\25015.gif">
-                        <collision-poly>
-                            <point x="0" y="0" />
+                            <point x="0" y="0.00684932" />
+                            <point x="0.261905" y="0" />
+                            <point x="1" y="0" />
                             <point x="1" y="0" />
                             <point x="1" y="0" />
                             <point x="1" y="0" />
                             <point x="1" y="1" />
                             <point x="0" y="1" />
-                            <point x="0" y="0" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.0819672" hotspotY="0.38" original-source="C:\Users\devil\Desktop\nuevosAnayasLanzando.png">
+                    <frame duration="1" hotspotX="0.512195" hotspotY="0.541667" original-source="C:\Users\devil\Desktop\nuevosAnayas.png">
+                        <image-point name="Imagepoint 1" x="0.902439" y="0.805556" />
                         <collision-poly>
+                            <point x="0" y="0.5" />
+                            <point x="0" y="0.013889" />
+                            <point x="0.487805" y="0.263889" />
+                            <point x="1" y="0.055556" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="0.916667" />
+                            <point x="0.487805" y="0.986111" />
+                            <point x="0" y="0.819444" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.52381" hotspotY="0.567568" original-source="C:\Users\devil\Desktop\nuevosAnayas.png">
+                        <image-point name="Imagepoint 1" x="0.904762" y="0.824324" />
+                        <collision-poly>
+                            <point x="0" y="0.5" />
+                            <point x="0" y="0.027027" />
+                            <point x="0" y="0.27027" />
+                            <point x="0.988095" y="4.38653e-007" />
+                            <point x="1" y="0.506757" />
+                            <point x="1" y="0.959459" />
+                            <point x="0" y="0.972973" />
+                            <point x="0" y="0.810811" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="2" loop="0" name="Dispara" pingpong="0" repeatcount="1" repeatto="0" sid="760612269915925" speed="11">
+                    <frame duration="1" hotspotX="0.531915" hotspotY="0.485294" original-source="C:\Users\devil\Desktop\25015.gif">
+                        <collision-poly>
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
                             <point x="0" y="0" />
-                            <point x="0.0655738" y="0.1" />
-                            <point x="0.688525" y="0.08" />
-                            <point x="0.590164" y="0.38" />
-                            <point x="0.918033" y="0.96" />
-                            <point x="0.0655738" y="0.36" />
-                            <point x="0" y="0.82" />
-                            <point x="0" y="0.38" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.508197" hotspotY="0.5" original-source="C:\Users\devil\Desktop\nuevosAnayasLanzando.png">
+                        <image-point name="Imagepoint 1" x="0.836066" y="0.66" />
+                        <collision-poly>
+                            <point x="1" y="1" />
+                            <point x="0.934426" y="0.9" />
+                            <point x="0.311475" y="0.92" />
+                            <point x="0.409836" y="0.62" />
+                            <point x="0.081967" y="0.04" />
+                            <point x="0.672131" y="0" />
+                            <point x="1" y="0.18" />
+                            <point x="1" y="0.62" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1700,6 +1710,43 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="560794937584105" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\devil\Downloads\png\Tiles\Tile (2).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="lvl21_jefe_bala" sid="153735750851149">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="602028129898248">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="628300724857642" speed="5">
+                    <frame duration="1" hotspotX="0.516129" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tapadera_blanca" sid="605266955932620">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="789389532510429" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="lvlfinal_vida" sid="978862998950967">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="673203316554323" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0.484848" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="barraFinal" sid="606498403624570">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="101254950277250" speed="5">
+                    <frame duration="1" hotspotX="0.904269" hotspotY="0.843137" />
                 </animation>
             </animation-folder>
         </object-type>
