@@ -10,8 +10,8 @@ lvl 2= 6
 lvl 3= 8
 ()=vida enemigo =# quita vida al personaje
 enemigo quieta vida.
-lvl 1=10(10)  jefe 1= 1(0)     jefe 2=20(100)
-lvl 2=15(20)  jefe 1= 20(150)  jefe 2=35(200)
+lvl ///1=10(10)  ///jefe 1= 1(0)     ///jefe 2=20(100)
+lvl ///2=15(20)  ///jefe 1= 20(150)  jefe 2=35(200)
 lvl 3=30(30)  jefe 1= 35(250)  jefe 2=50(300)
 despues de amlo un guacamole que te de 30 balas
 
