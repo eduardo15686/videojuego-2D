@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="0">Nivel1-1F</layout>
+        <layout order="1">Nivel2-2-F</layout>
+        <layout order="4">Nivel2-1F</layout>
+        <layout order="5">Nivel1-2F</layout>
+        <layout order="7">Nivel2-1</layout>
+        <layout active="1" order="9">Nivel Fake</layout>
+        <event-sheet order="2">Event sheet 5</event-sheet>
+        <event-sheet order="3">Event sheet 4</event-sheet>
+        <event-sheet order="6">Event sheet 6</event-sheet>
+        <event-sheet order="8">Event sheet 2</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="1" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/fondo_tierra1/" />
+        <folder expanded="1" path="animation-folder/fondo_tierra2/" />
+        <folder expanded="1" path="animation-folder/fondo_tierra3/" />
+        <folder expanded="1" path="animation-folder/Piso/" />
+        <folder expanded="1" path="animation-folder/Jugador/" />
+        <folder expanded="1" path="animation-folder/Camara/" />
+        <folder expanded="1" path="animation-folder/item_taco/" />
+        <folder expanded="1" path="animation-folder/item_chile/" />
+        <folder expanded="1" path="animation-folder/item_guacamole/" />
+        <folder expanded="1" path="animation-folder/Lvl2_enemigo/" />
+        <folder expanded="1" path="animation-folder/Lvl2_enemigo1/" />
+        <folder expanded="1" path="animation-folder/piso_flt_izq/" />
+        <folder expanded="1" path="animation-folder/piso_flt_medio/" />
+        <folder expanded="1" path="animation-folder/piso_flt_der/" />
+        <folder expanded="1" path="animation-folder/paredTierra1/" />
+        <folder expanded="1" path="animation-folder/piso_izq/" />
+        <folder expanded="1" path="animation-folder/piso_medio/" />
+        <folder expanded="1" path="animation-folder/tierraCentro/" />
+        <folder expanded="1" path="animation-folder/fondo_flecha/" />
+        <folder expanded="1" path="animation-folder/status_barra_de_vida/" />
+        <folder expanded="1" path="animation-folder/status_vida/" />
+        <folder expanded="1" path="animation-folder/fondo_muerte/" />
+        <folder expanded="1" path="animation-folder/status_chile/" />
+        <folder expanded="1" path="animation-folder/pared_invisible/" />
+        <folder expanded="1" path="animation-folder/puerta_Invisible/" />
+        <folder expanded="1" path="animation-folder/caballo/" />
+        <folder expanded="1" path="animation-folder/cuchillo1/" />
+        <folder expanded="1" path="animation-folder/detenedores/" />
+        <folder expanded="1" path="animation-folder/puerta_Invisible2/" />
+        <folder expanded="1" path="animation-folder/cuchillo2/" />
+        <folder expanded="1" path="animation-folder/pared_solida/" />
+        <folder expanded="1" path="animation-folder/Jugador_balas/" />
+        <folder expanded="1" path="animation-folder/obtencion_item_chile/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/falso/" />
+        <folder expanded="1" path="animation-folder/pisoMuerte/" />
+        <folder expanded="1" path="animation-folder/Final2n1/" />
+        <folder expanded="1" path="animation-folder/Fondo/" />
+        <folder expanded="1" path="animation-folder/Jefe21/" />
+        <folder expanded="1" path="animation-folder/Posicion1/" />
+        <folder expanded="1" path="animation-folder/Posicion2/" />
+        <folder expanded="1" path="animation-folder/Posicion3/" />
+        <folder expanded="1" path="animation-folder/Posicion4/" />
+        <folder expanded="1" path="animation-folder/Jefe_Base/" />
+        <folder expanded="1" path="animation-folder/spwn1/" />
+        <folder expanded="1" path="animation-folder/spwn2/" />
+        <folder expanded="1" path="animation-folder/Pared/" />
+        <folder expanded="1" path="animation-folder/jefe_b/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/Pared_invisible22/" />
+        <folder expanded="1" path="animation-folder/fondo_Casilla/" />
+        <folder expanded="1" path="animation-folder/fondo_punto1/" />
+        <folder expanded="1" path="animation-folder/fondo_punto2/" />
+        <folder expanded="1" path="animation-folder/prueba/" />
+        <folder expanded="1" path="animation-folder/fondo_disparo/" />
+        <folder expanded="1" path="animation-folder/fondo_punto3/" />
+        <folder expanded="1" path="animation-folder/fondolvl1/" />
+        <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/fomdolvl1_1/" />
+        <folder expanded="1" path="animation-folder/fondolvl1_1/" />
+        <folder expanded="1" path="animation-folder/fondolvl1_2/" />
+        <folder expanded="1" path="animation-folder/margarita/" />
+        <folder expanded="1" path="animation-folder/lvl1_pared1/" />
+        <folder expanded="1" path="animation-folder/lvl1_pared2/" />
+        <folder expanded="1" path="animation-folder/lvl1_enemigo/" />
+        <folder expanded="1" path="animation-folder/lvl_fondo_final/" />
+        <folder expanded="1" path="animation-folder/lvl1_enemigo_ataque/" />
+        <folder expanded="1" path="animation-folder/lvl1_urnaFinal/" />
+        <folder expanded="1" path="animation-folder/lvl1_not/" />
+        <folder expanded="1" path="animation-folder/lvl1_caballo_indicador/" />
+        <folder expanded="1" path="animation-folder/lvl2_checkPoint/" />
+        <folder expanded="1" path="animation-folder/lvl2_enemigo_bala/" />
+        <folder expanded="1" path="animation-folder/lvl2_pared_desaperece/" />
+        <folder expanded="1" path="animation-folder/lvl2_furnaFinal/" />
+        <folder expanded="1" path="animation-folder/lvl11_fondo/" />
+        <folder expanded="1" path="animation-folder/lvl11_pisoFalso/" />
+        <folder expanded="1" path="animation-folder/lvl11_lineaDeMuerte/" />
+        <folder expanded="1" path="animation-folder/lvl11_enemigo/" />
+        <folder expanded="1" path="animation-folder/lvl11_indicador1/" />
+        <folder expanded="1" path="animation-folder/status_barra_de_vidaV/" />
+        <folder expanded="1" path="animation-folder/lvl11_bala/" />
+        <folder expanded="1" path="animation-folder/lvl11_fondoFinal/" />
+        <folder expanded="1" path="animation-folder/lbl11_paraTerminar/" />
+        <folder expanded="1" path="animation-folder/lvl22_pisoFalso/" />
+        <folder expanded="1" path="animation-folder/lvl22_Anaya/" />
+        <folder expanded="1" path="animation-folder/lvl22_anaya_arma/" />
+        <folder expanded="1" path="animation-folder/lvl22_posicion1/" />
+        <folder expanded="1" path="animation-folder/lvl22_pocision2/" />
+        <folder expanded="1" path="animation-folder/lvl22_pocision3/" />
+        <folder expanded="1" path="animation-folder/camarados/" />
+        <folder expanded="1" path="animation-folder/lvl22_tirador1/" />
+        <folder expanded="1" path="animation-folder/lvl22_tirador2/" />
+        <folder expanded="1" path="animation-folder/lvl22_tirador3/" />
+        <folder expanded="1" path="animation-folder/lvl22_baseSolida/" />
+        <folder expanded="1" path="animation-folder/lvl21_jefe_bala/" />
+        <folder expanded="1" path="animation-folder/tapadera_blanca/" />
+        <folder expanded="1" path="animation-folder/lvlfinal_vida/" />
+        <folder expanded="1" path="animation-folder/barraFinal/" />
+    </folders-expanded>
+</c2uistate>
